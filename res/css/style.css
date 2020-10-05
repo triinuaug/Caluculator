@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+table {
+    margin: auto;
+	width: 50%;
+	max-width: 200px;
+	height: 300px;
+}
+
+th {
+	border: 1px solid grey;
+	height: 50px;
+}
+input {
+	background-color: white;
+	border: 0px;
+}
+
+button {
+	width: 100%;
+	min-width: 35px;
+	height: 100%;
+	
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+#ce {
+	background-color: red;
+	color: white;
+}
+
+#equals {
+	background-color: orange;
+	color: white;
+}
+
+.operator {
+	background-color: lightblue;
+}
+
+button:hover {
+	transform: scale(1.03);
+}
